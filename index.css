@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: radial-gradient(#fff,#ffd6d6);
+}
+
+.acc{
+  font-size: 25px;
+}
+
+.marquee{
+  padding-top: 5px;
+  font-weight: bolder;
+  font-size: 20px;
+  background-color: rgb(230, 81, 98);
+  color: rgb(255, 255, 255);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container img{
+    width: 100%;
+}
+.img_one{
+  position: relative;
+}
+.quote{
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 300%;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    color: rgb(240, 6, 61);
+}
+.logo{
+    position: absolute;
+    top: 10%;
+
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(250, 104, 104);
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+
+
+
+.poster{
+  width: 100%;
+  
+}
+
+
+.sbc{
+  border-radius: 50%;
+  padding: 10px;
+}
+.sbc:hover{
+  border-radius: 80px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.sbc_title{
+  font-style: italic;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 30px;
+  position: absolute;
+  top: 171%;
+  left: 11%;
+  color: rgb(0, 0, 0);
+}
+  
+.sbc_title1{
+  font-style: italic;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 30px;
+  position: absolute;
+  top: 171%;
+  left: 40%;
+  color: rgb(0, 0, 0);
+}
+  
+.sbc_title2{
+  font-style: italic;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 30px;
+  position: absolute;
+  top: 171%;
+  left: 65%;
+  color: rgb(0, 0, 0);
+}
+
+
+
+.carousel-cell {
+  padding-top: 35px;
+  width: 66%;
+  border-radius: 30px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+
+.offer{
+  border-radius: 50px;
+}
+
+.price{
+  border: 1px solid 50px;
+  padding-left: 100px;
+}
+.price:hover{
+  font-size: 200%;
+  transition: 1s;
+
+}
+
+
+.bridal{
+  width: 1500px;
+  padding-top: 30px;
+  border-radius: 80px;
+  height: 700px;
+}
+.carousel-cell-2 {
+  padding: 25px;
+  width: 30%;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.text_down{
+  font-family: Sanskrit Text ;
+  padding-top: 55px;
+  text-align: center;
+}
+.img_down{
+  margin-left: 12px;
+  padding: 5px;
+}
+.groom_down{
+  margin-left: 2px ;
+  padding: 2px;
+}
+.text_shoes{
+  font-family: Sanskrit Text ;
+  text-align: center;
+}
+
+.shoes-child{
+  border-radius: 25px;
+}
+.shoes_5{
+  border-radius: 25px;
+}
+/* *****************Footer***************** */
+
+.container{
+  max-width: 1170px;
+  margin: auto;
+}
+
+.f-row{
+  display: flex;
+  flex-wrap: wrap ;
+}
+ 
+ul{
+  list-style: none;
+}
+
+.footer{
+  background-color: #24262b;
+  padding: 70px 0;
+  border-radius: 5%;
+}
+
+.footer-col{
+  width: 20%;
+  padding: 0 15px;
+
+}
+
+.footer-col h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 10px;
+
+}
+
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255 ,0.2);
+  margin:0 10px 10px;
+  text-align: center;
+  line-height: 40px; 
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+}
+@media (max-width:574) {
+  
+}

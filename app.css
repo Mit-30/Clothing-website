@@ -1,0 +1,38 @@
+body{
+    background-image:url('small.jpg') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 50% 100%;
+    background-position: right;
+    background-color: #ee9c22;
+    
+}
+.text{
+    font-size: 60px;
+}
+.text_1{
+    font-size: 30px;
+}
+.qr_text{
+    font-size: 30px;
+}
+.qr{
+    cursor: none;
+    padding-left: 150px;
+}
+h1{
+    padding-left: 210px ;
+}
+.appstore{
+    
+    border-radius: 25px;
+}
+.playstore{
+    border-radius: 25px;
+}
+.appstore:hover{
+    cursor:pointer;
+}
+.playstore:hover{
+    cursor:pointer;
+}
